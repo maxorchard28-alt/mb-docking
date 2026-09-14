@@ -1090,4 +1090,19 @@ textarea {
   .container {
     width: calc(100% - 32px);
   }
+
+  .hero-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-6) var(--space-4);
+    margin-top: var(--space-8);
+  }
+
+  .hero-ctas {
+    flex-direction: column;
+  }
+
+  .hero-ctas .btn {
+    width: 100%;
+  }
 }
