@@ -1,0 +1,7 @@
+<svg class="brand-logo" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="M&B Docking anchor logo">
+  <rect width="48" height="48" rx="10" fill="#1a1a1a"/>
+  <circle cx="24" cy="14" r="4" stroke="#D4AF37" stroke-width="2.2" fill="none"/>
+  <line x1="24" y1="18" x2="24" y2="37" stroke="#D4AF37" stroke-width="2.2"/>
+  <line x1="15" y1="22" x2="33" y2="22" stroke="#D4AF37" stroke-width="2.2"/>
+  <path d="M13 29c0 6.5 5 11 11 11s11-4.5 11-11" stroke="#D4AF37" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+</svg>
