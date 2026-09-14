@@ -497,8 +497,8 @@ contact_content = f'''  <main>
               <span>Clear Lake, Iowa and surrounding areas</span>
             </li>
             <li>
-              <strong>Business Hours</strong>
-              <span>Always open</span>
+              <strong>Hours</strong>
+              <span>Call or text anytime &mdash; we&rsquo;ll respond as soon as we can</span>
             </li>
           </ul>
 
@@ -546,7 +546,7 @@ contact_content = f'''  <main>
             <div class="form-wide">
               <button type="submit" class="btn btn-gold btn-block" style="padding: 16px;">Submit Free Estimate Request</button>
               <div id="form-notice" class="form-notice">
-                &check; Thank you! Your request has been received. We'll get back to you shortly.
+                Opening your email app with your request filled in &mdash; just hit send. If nothing opens, email us directly at {EMAIL}.
               </div>
             </div>
           </div>

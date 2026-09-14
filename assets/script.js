@@ -52,21 +52,47 @@
   }
 })();
 
-// ===== Contact Form (demo) =====
+// ===== Contact Form: opens a prefilled email to M&B Docking =====
 (function () {
   const form = document.getElementById('contact-form');
   const notice = document.getElementById('form-notice');
+  const CONTACT_EMAIL = 'mbdockingcl@gmail.com';
+
   if (form) {
     form.addEventListener('submit', (e) => {
       e.preventDefault();
+
+      const name = form.name ? form.name.value.trim() : '';
+      const phone = form.phone ? form.phone.value.trim() : '';
+      const email = form.email ? form.email.value.trim() : '';
+      const service = form.service ? form.service.value.trim() : '';
+      const location = form.location ? form.location.value.trim() : '';
+      const message = form.message ? form.message.value.trim() : '';
+
+      const subject = 'Free Estimate Request' + (service ? ' - ' + service : '');
+      const bodyLines = [
+        'Name: ' + name,
+        'Phone: ' + phone,
+        'Email: ' + (email || 'n/a'),
+        'Service Needed: ' + (service || 'n/a'),
+        'Property / Location: ' + (location || 'n/a'),
+        '',
+        'Message:',
+        message || '(none)',
+      ];
+      const body = bodyLines.join('\n');
+
+      const mailtoUrl = 'mailto:' + CONTACT_EMAIL
+        + '?subject=' + encodeURIComponent(subject)
+        + '&body=' + encodeURIComponent(body);
+
+      window.location.href = mailtoUrl;
+
       if (notice) {
+        notice.textContent = 'Opening your email app with your request filled in \u2014 just hit send. If nothing opens, email us directly at ' + CONTACT_EMAIL + '.';
         notice.style.display = 'block';
         notice.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }
-      form.reset();
-      setTimeout(() => {
-        if (notice) notice.style.display = 'none';
-      }, 5000);
     });
   }
 })();
