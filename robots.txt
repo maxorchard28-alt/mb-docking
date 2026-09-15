@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://maxorchard28-alt.github.io/mb-docking/sitemap.xml
+Sitemap: https://clearlakedocking.com/sitemap.xml

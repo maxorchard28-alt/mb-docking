@@ -49,8 +49,8 @@ def head(title, description, active):
     "slogan": "Docking Done Right",
     "telephone": "{PHONE}",
     "email": "{EMAIL}",
-    "url": "https://maxorchard28-alt.github.io/mb-docking/",
-    "image": "https://maxorchard28-alt.github.io/mb-docking/assets/mb-logo.png",
+    "url": "https://clearlakedocking.com/",
+    "image": "https://clearlakedocking.com/assets/mb-logo.png",
     "priceRange": "$$",
     "areaServed": "Clear Lake, Iowa and surrounding areas",
     "address": {{
