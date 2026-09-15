@@ -210,10 +210,7 @@ home_content = f'''  <main>
         </div>
         <div class="split-visual">
           <div class="photo-frame">
-            <div class="photo-placeholder">
-              <svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 16l4.5-6 4 5 3-4L20 16M4 8h.01M4 4h16v16H4z" stroke-linejoin="round"/></svg>
-              <p>Clear Lake waterfront &amp; dock work</p>
-            </div>
+            <img src="assets/max-and-blake.jpg" alt="Max Orchard and Blake Enke of M&B Docking at Clear Lake, Iowa" style="width:100%; height:100%; object-fit:cover; border-radius: var(--radius-lg);" />
           </div>
         </div>
       </div>
@@ -289,10 +286,7 @@ about_content = f'''  <main>
 
         <div class="split-visual">
           <div class="photo-frame">
-            <div class="photo-placeholder">
-              <svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 4-6 8-6s8 2 8 6" stroke-linecap="round"/></svg>
-              <p>Photo of Max &amp; Blake to go here.<br/>Send us your photo and we'll swap it in.</p>
-            </div>
+            <img src="assets/max-and-blake.jpg" alt="Max Orchard and Blake Enke of M&B Docking at Clear Lake, Iowa" style="width:100%; height:100%; object-fit:cover; border-radius: var(--radius-lg);" />
           </div>
         </div>
       </div>
