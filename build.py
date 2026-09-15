@@ -4,13 +4,7 @@ import os
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 
-LOGO_SVG = '''<svg class="brand-logo" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="M&amp;B Docking anchor logo">
-          <rect width="48" height="48" rx="10" fill="#1a1a1a"/>
-          <circle cx="24" cy="14" r="4" stroke="#D4AF37" stroke-width="2.2" fill="none"/>
-          <line x1="24" y1="18" x2="24" y2="37" stroke="#D4AF37" stroke-width="2.2"/>
-          <line x1="15" y1="22" x2="33" y2="22" stroke="#D4AF37" stroke-width="2.2"/>
-          <path d="M13 29c0 6.5 5 11 11 11s11-4.5 11-11" stroke="#D4AF37" stroke-width="2.2" fill="none" stroke-linecap="round"/>
-        </svg>'''
+LOGO_IMG = '<img class="brand-logo" src="assets/mb-logo.png" alt="M&B Docking — Docking Done Right" />'
 
 FACEBOOK_URL = "https://www.facebook.com/p/MB-Docking-61561018682896/"
 PHONE = "641-231-2744"
@@ -25,7 +19,7 @@ def head(title, description, active):
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="{description}" />
   <title>{title}</title>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 48 48%22><rect width=%2248%22 height=%2248%22 rx=%2210%22 fill=%22%231a1a1a%22/><circle cx=%2224%22 cy=%2214%22 r=%224%22 stroke=%22%23D4AF37%22 stroke-width=%222.2%22 fill=%22none%22/><line x1=%2224%22 y1=%2218%22 x2=%2224%22 y2=%2237%22 stroke=%22%23D4AF37%22 stroke-width=%222.2%22/><line x1=%2215%22 y1=%2222%22 x2=%2233%22 y2=%2222%22 stroke=%22%23D4AF37%22 stroke-width=%222.2%22/><path d=%22M13 29c0 6.5 5 11 11 11s11-4.5 11-11%22 stroke=%22%23D4AF37%22 stroke-width=%222.2%22 fill=%22none%22 stroke-linecap=%22round%22/></svg>" />
+  <link rel="icon" type="image/png" href="assets/mb-logo.png" />
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://api.fontshare.com" />
@@ -65,7 +59,7 @@ def header(active):
     <div class="container">
       <nav class="nav" aria-label="Main Navigation">
         <a class="brand" href="index.html">
-          {LOGO_SVG}
+          {LOGO_IMG}
           <span class="brand-text">
             <span class="brand-name">M&amp;B Docking</span>
             <span class="brand-tagline">Docking Done Right</span>
@@ -95,7 +89,7 @@ def footer():
     <div class="container">
       <div class="footer-content">
         <div class="footer-brand">
-          {LOGO_SVG}
+          {LOGO_IMG}
           <span>
             <span class="footer-brand-name" style="display:block;">M&amp;B Docking</span>
             <span class="footer-brand-tag">Docking Done Right</span>
