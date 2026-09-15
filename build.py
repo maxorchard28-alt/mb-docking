@@ -221,12 +221,9 @@ home_content = f'''  <main>
       <div class="container">
         <div class="section-kicker">Our Work</div>
         <h2 class="section-title">Docks We've Installed &amp; Maintained</h2>
-        <p class="section-lead">A look at the kind of work we do around Clear Lake &mdash; real project photos coming soon.</p>
+        <p class="section-lead">A look at the kind of work we do around Clear Lake.</p>
         <div class="gallery-grid">
-          <div class="gallery-item"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 12h18M3 12l4-4M3 12l4 4M21 6v12"/></svg></div>
-          <div class="gallery-item"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 16l4.5-6 4 5 3-4L20 16M4 8h.01M4 4h16v16H4z" stroke-linejoin="round"/></svg></div>
-          <div class="gallery-item"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="14" r="3"/><path d="M4 4h16v14a2 2 0 01-2 2H6a2 2 0 01-2-2V4z"/></svg></div>
-          <div class="gallery-item"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 12H4M20 12l-4-4M20 12l-4 4M4 18V6"/></svg></div>
+          <div class="gallery-item"><img src="assets/dock-project-1.jpg" alt="Modular lake dock installation with T-config end on Clear Lake" style="width:100%; height:100%; object-fit:cover;" /></div>
         </div>
       </div>
     </section>
