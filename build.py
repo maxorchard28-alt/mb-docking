@@ -18,6 +18,9 @@ def head(title, description, active):
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="{description}" />
+  <meta name="keywords" content="dock installation Clear Lake Iowa, dock removal, dock repair, dock maintenance, Clear Lake dock service, M&B Docking, lake dock Iowa" />
+  <meta name="author" content="M&B Docking" />
+  <meta name="robots" content="index, follow" />
   <title>{title}</title>
   <link rel="icon" type="image/png" href="assets/mb-logo.png" />
 
@@ -31,6 +34,39 @@ def head(title, description, active):
   <meta property="og:title" content="{title}" />
   <meta property="og:description" content="{description}" />
   <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/mb-logo.png" />
+  <meta property="og:locality" content="Clear Lake" />
+  <meta property="og:region" content="IA" />
+  <meta property="og:country-name" content="USA" />
+
+  <!-- Local Business Structured Data (helps Google understand this is a local business) -->
+  <script type="application/ld+json">
+  {{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "M&B Docking",
+    "description": "Dock installation, removal, maintenance, and repair service in Clear Lake, Iowa.",
+    "slogan": "Docking Done Right",
+    "telephone": "{PHONE}",
+    "email": "{EMAIL}",
+    "url": "https://maxorchard28-alt.github.io/mb-docking/",
+    "image": "https://maxorchard28-alt.github.io/mb-docking/assets/mb-logo.png",
+    "priceRange": "$$",
+    "areaServed": "Clear Lake, Iowa and surrounding areas",
+    "address": {{
+      "@type": "PostalAddress",
+      "addressLocality": "Clear Lake",
+      "addressRegion": "IA",
+      "postalCode": "50428",
+      "addressCountry": "US"
+    }},
+    "founders": [
+      {{ "@type": "Person", "name": "Max Orchard" }},
+      {{ "@type": "Person", "name": "Blake Enke" }}
+    ],
+    "knowsAbout": ["dock installation", "dock removal", "dock maintenance", "dock repair"]
+  }}
+  </script>
 </head>
 <body>
 '''
